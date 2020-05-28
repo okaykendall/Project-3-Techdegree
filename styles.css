@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+}
+
+/* Top Layout */
+
+.header {
+    color: white;
+    background: navy;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    width: 0 auto;
+    font-size: 1.5em;
+    height: 2.5em;
+    padding-top: .8em;
+}
+
+.subheader {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-top: 1.2em;
+}
+
+.intro {
+    text-align: center;
+}
+
+.top {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: .2em;
+    padding-left: .5em;
+    padding-right: .5em;
+    border-bottom: solid black 4.2px;
+}
+/* Form Layout */
+
+fieldset {
+    border: none;
+}
+
+.contact {
+    border-top: solid black 1.5px;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+.content {
+    background-color: gainsboro;
+    width: 90%;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    padding-top: .5em;
+}
+
+input[placeholder="Required "] {
+    text-align: right;
+    font-style: italic;
+    padding-right: 1.5em;
+    font-size: .7em;
+}
+
+.cats, .content {
+    margin-bottom: 10px;
+    padding-bottom: .5em;
+    font-weight: lighter;
+}
+
+select {
+    width: 90%;
+    background-color: gainsboro;
+    padding: .5em;
+    border-radius: 4px;
+    height: 35px;
+    font-size: .5em;
+}
+
+#zip {
+    width: 30%;
+}
+
+/* Newsletter Layout */
+
+.news {
+    border-top: solid black 1.5px;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: .5em;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+ul {
+    padding-left: 0;
+    padding-top: .5em;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+li {
+    align-items: flex-start;
+    flex: 0 1 auto;
+    padding-bottom: 10px;
+}
+
+.selnews {
+    padding-bottom:.5em;
+}
+
+.format {
+    padding-top: .5em;
+    padding-bottom: .2em;
+}
+
+.topics {
+    padding: .5em;
+}
+
+textarea {
+    background-color: gainsboro;
+    width: 90%;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    background-color: olive;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    width: 90%;
+    border-radius: 4px;
+    height: 2.5em;
+    padding-top: 1em;
+    box-shadow: orangered;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
