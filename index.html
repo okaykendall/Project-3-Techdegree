@@ -16,22 +16,22 @@
 <h1 class="subheader">Signup for our newsletter</h1>
 <p class="intro">Get the latest news on how your code is doing right in your inbox</p>
 </div>
-<div class="container">
 <form action="#" method="POST"> 
 <fieldset>
    <legend class="contact">Contact Information</legend> 
+   <div class="firstsec">
    <label for="fullname" class="cats">Full Name</label><br>
    <input type="text" id="fullname" name="fullname" class="content" placeholder="Required " required><br>
    <label for="email" class="cats" >Email Address</label><br>
    <input type="email" id="email" name="email" class="content" placeholder="Required "  required><br>
    <label for="phone" class="cats">Phone Number</label><br>
-   <input type="tel" id="phone" name="phone" class="content"><br>
+   <input type="tel" id="phone" name="phone" class="content" placeholder="555-5555"><br>
    <label for="address" class="cats">Street Address</label><br>
-   <input type="text" id="address" name="address" class="content"><br>
+   <input type="text" id="address" name="address" class="content" placeholder="ex. 22 Doggy Day Lane"><br>
    <label for="city" class="cats">City</label><br>
-   <input type="text" id="city" name="city" class="content"><br>
+   <input type="text" id="city" name="city" class="content" placeholder="ex. Funkytown"><br>
    <label for="state" class="cats">State</label><br>
-   <select id="state" name="state" class="cats">
+   <select id="state" name="state" class="content">
     <option value="" class="content" disabled selected>Choose State</option>
       <option value="Missitota">Missitota</option>
       <option value="Kanaska">Kanaska</option>
@@ -39,9 +39,11 @@
       <option value="Califlorida">Califlorida</option> 
       <option value="north-ohio">North Ohio</option>  
    </select><br>
-   <label for="zip" class="cats">Zip Code</label><br>
-   <input type="text" id="zip" name="zip" class="content">
+   <label for="zip" class="cats zipc">Zip Code</label><br>
+   <input type="text" id="zip" name="zip" class="content" placeholder="12345">
 </fieldset>
+</div>
+<div class="secondsec">
 <fieldset>
 <legend class="news">Newsletter</legend>
 <label class="selnews">Select the newsletters you would like to recieve</label><br>
@@ -69,7 +71,7 @@
 <label for="ptext">Plain text</label><br>
 </li>
 </ul>
-
+</div>
 <legend class="topics">Other topics you'd like to hear about</legend>
 <textarea name="topics" rows="5" cols="25">
 </textarea><br>
@@ -79,6 +81,5 @@
 <footer>
 <p>Copyright the Code Review</p>
 </footer>
-</div>
 </body>
 </html>
