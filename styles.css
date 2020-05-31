@@ -14,7 +14,6 @@
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: .1em;
-    width: 0 auto;
     font-size: 1.5em;
     height: 2.5em;
     padding-top: .8em;
@@ -63,7 +62,6 @@ form {
     margin: 1em auto;
     justify-content: center;
     flex-direction: column;
-    align-items: space-around;
     width: 100%;
     max-width: 768px;
     font-weight: lighter;
@@ -88,7 +86,7 @@ input {
 
 input:focus {
     background-color: coral;
-   border-color: forestgreen;
+   border: solid 1px forestgreen;
     font-weight: bold;
     text-align: left;
 }
@@ -167,7 +165,6 @@ li {
 }
 
 .topics {
-    padding-top: .5em, .5em;
     margin-left: .5em;
 }
 
@@ -181,15 +178,15 @@ textarea {
 }
 
 input[type="submit"]{
-    align-self: center;
     font-size: 1.5em;
     margin-top: 1em;
     background-color: coral;
     color: black;
     text-align: center;
     border: 1px solid black;
-    width: 100%;
-    padding: 1px;
+    width: 90%;
+    margin-left: .5em;
+    margin-right: .5em;
     border-radius: 4px;
     height: 2.5em;
 }
@@ -207,6 +204,18 @@ footer {
  form {
      margin: 1em auto;
  }
+ .top {
+     display: flex;
+     flex-direction: column;
+}
+
+.subheader {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 0;
+}
 
 .firstsec {
     display:flex;
