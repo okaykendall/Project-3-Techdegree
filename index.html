@@ -16,6 +16,7 @@
 <h1 class="subheader">Signup for our newsletter</h1>
 <p class="intro">Get the latest news on how your code is doing right in your inbox</p>
 </div>
+
 <form action="#" method="POST"> 
 <fieldset>
 <legend class="contact">Contact Information</legend> 
@@ -43,8 +44,9 @@
    <input type="text" id="zip" name="zip" class="content" placeholder="12345">
 </div>
 </fieldset>
-<div class="secondsec">
+
 <fieldset>
+    <div class="secondsec">
 <legend class="news">Newsletter</legend>
 <label class="selnews">Select the newsletters you would like to recieve</label><br>
 <ul class="optionz">
@@ -64,7 +66,7 @@
 <ul class="radioz">
 <li>
 <input type="radio" id="html" name="format" value="HTML">
-<label for="htmlnews">HTML</label><br>
+<label for="html">HTML</label><br>
 </li>
 <li>
 <input type="radio" id="ptext" name="format" value="ptext">
@@ -72,8 +74,8 @@
 </li>
 </ul>
 </div>
-<p class="topics">Other topics you'd like to hear about</p>
-<textarea name="topics" rows="5" cols="25">
+<label for="topics" class="topics">Other topics you'd like to hear about</label>
+<textarea id="topics" name="topics" rows="5" cols="25">
 </textarea><br>
 <input type="submit" name="signup" value="Sign Up">
 </fieldset>
